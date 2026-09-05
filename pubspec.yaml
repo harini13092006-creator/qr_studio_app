@@ -51,6 +51,7 @@ dependencies:
   cross_file: ^0.3.4+2
   http: ^1.6.0
   share_plus: 10.1.4
+  firebase_core: ^4.14.0
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +63,16 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.jpeg"
+  web:
+    generate: true
+    image_path: "assets/icon/app_icon.jpeg"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -104,5 +115,3 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
-
- 
